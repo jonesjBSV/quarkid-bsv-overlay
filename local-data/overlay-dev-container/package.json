@@ -1,0 +1,28 @@
+{
+  "name": "overlay-express-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx watch index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bsv/overlay": "^0.1.24",
+    "@bsv/sdk": "^1.4.0",
+    "knex": "^3.1.0",
+    "mongodb": "^6.11.0",
+    "scrypt-ts": "^1.4.3",
+    "scrypt-ts-lib": "^0.1.28",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "@bsv/overlay-express": "^0.3.7",
+    "mysql2": "^3.11.5",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
