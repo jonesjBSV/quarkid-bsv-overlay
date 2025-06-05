@@ -22,7 +22,7 @@ Manages transactions related to the 'tm_qdid' (QuarkID DID) method.
 Off-chain DidPayload must be provided during submission.
 `
 
-const DID_TOPIC_NAME = 'tm_qdid'
+const DID_TOPIC_NAME = 'qdid'
 const MIN_STATE_UTXO_SATOSHIS = 1 // Minimum satoshis for a P2PKH state UTXO
 const DEFAULT_STATE_UTXO_VOUT = 0 // Assuming the state UTXO is typically the first output
 
